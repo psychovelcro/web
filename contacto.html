@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="Index.html/Img/favicon.png"/>
+    <title>In Vivo Virtual</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+		<ul id="menu">
+           
+            <li><a href="index.html"><img src="Img/logo.png"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="quienessomos.html">In Vivo Virtual</a>
+                
+            </li>
+            <li><a href="instalaciones.html">Instalaciones</a></li>
+            <li>
+                
+                <a href="servicios.html">Servicios</a>
+            
+                <ul>
+                    <li><a href="estadistica.html">Data & Statistics</a></li>
+                    <li><a href="progra.html">Programming</a></li>
+                    <li><a href="web.html">Web design</a></li>
+                </ul>
+            </li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+   
+    </header>
+    <div class="social">
+		<ul>
+			<li><a href="#" target="_blank" class="icon-facebook"><img src="Icon/facebook.png" alt="" width="40" height="40"></a></li>
+			<li><a href="#" target="_blank" class="icon-twitter"><img src="Icon/twitter.png" alt="" width="40" height="40"></a></li>
+			<li><a href="#" target="_blank" class="icon-instagram"><img src="Icon/instagram.png" alt="" width="40" height="40"></a></li>
+			<li><a href="#" target="_blank" class="icon-pinterest"><img src="Icon/whatsapp.png" alt="" width="40" height="40"></a></li>
+			<li><a href="#" class="icon-mail"><img src="Icon/email.png" alt="" width="40" height="40"></a></li>
+		</ul>
+	</div>
+    
+    
+    <h2>InVivo Consulting...</h2>
+
+      
+    <div>
+
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12158.459932763088!2d-3.9190828!3d40.3730607!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x375a8b6ca7a1dc4c!2sUniversidad%20Europea%20de%20Madrid%20(Campus%20Villaviciosa%20de%20Od%C3%B3n)!5e0!3m2!1ses!2ses!4v1608754628562!5m2!1ses!2ses" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    </div>
+
+
+        <div>
+        <form action="mailto:raul.rodriguez@universidadeuropea.es" method="POST" name="PROYECTOJUANJO">
+            
+                    
+                <fieldset>
+                    <legend>Contacto</legend>
+                    <label for="Nombre" name="Nombre">Nombre y Apellidos:</label>
+                    <input type="text" name="Nombre" required>
+                    <label for="Email" name="Email">Email:</label>
+                    <input type="text" name="Email" required>
+                    <p></p>
+                    <label for="Teléfono" name="Email">Teléfono:</label>
+                    <input type="text" name="Teléfono" required>
+                </fieldset>
+                   
+                    <fieldset>
+
+                        <legend>Asunto</legend>
+                        <div id="asunto">
+                        <input type="checkbox" name="Consultoría" value="Consultoría"> Consultoría
+                        <input type="checkbox" name="Desarrollo de Proyectos" value="Desarrollo de Proyectos"> Desarrollo de Proyectos
+                        <input type="checkbox" name="Realización de Pedidos" value="Realización de Pedidos"> Realización de Pedidos
+                        <input type="checkbox" name="Otros" value="Otros"> Otros
+                         </div>
+                       
+                        
+                    </fieldset>
+                
+                <fieldset>
+
+
+                    <legend>Dirección Postal</legend>
+                    <label for="Tipo de Vía" name="Tipo de Vía">Tipo de Vía:</label>
+                    <input list="Tipo de Vía">
+                        <datalist>
+                            <option value="Alameda"></option>
+                            <option value="Calle"></option>
+                            <option value="Camino"></option>
+                            <option value="Carrer"></option>
+                            <option value="Carretera"></option>
+                            <option value="Paseo"></option>
+                            <option value="Ronda"></option>
+                            <option value="Travesía"></option>
+                            <option value="Avenida"></option>
+                        </datalist>
+        
+                        <label for="Nombre de la Vía" name="Nombre de la Vía">Nombre de la Vía:</label>
+                        <input type="text" name="Nombre de la Vía">
+                        <p></p>
+                        <label for="Número" name="Número">Número:</label>
+                        <input type="text" name="Número">  
+                        
+                        <label for="Piso" name="Piso">Piso:</label>
+                        <input type="text" name="Piso">
+                        
+                        
+        
+                        <p></p>
+                    
+                        <label for="Código Postal" name="Código Postal">Código Postal:</label>
+                        <input type="text" name="Código Postal" maxlength="5">
+                        
+                        <label for="Población" name="Población">Población:</label>
+                        <input type="text" name="Población">
+                        <p></p>
+                        <label for="Provincia" name="Provincia">Provincia:</label>
+                        <input type="text" name="Provincia">
+                        
+                        <label for="País" name="País">País:</label>
+                        <input type="text" name="País" required>
+                                
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Comentarios</legend>
+                        <textarea id="subject" name="subject" placeholder="Escribe tus comentarios"></textarea>
+                </fieldset>
+
+                <p id="fboton">
+
+                    <input type="submit" value="Enviar datos">
+                
+                    <input type="reset" value="Restaurar formulario">
+                
+                  </p>
+                
+       
+        </form>
+    </div>
+
+<footer>«Copyright 2021 by JuanJo Rey»</footer>
+    
+</body>
+
+</html>
